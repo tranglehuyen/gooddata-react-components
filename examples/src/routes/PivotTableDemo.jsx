@@ -8,7 +8,8 @@ import PivotTableSortingExample from '../components/PivotTableSortingExample';
 import PivotTableSortingExampleSRC from '!raw-loader!../components/PivotTableSortingExample'; // eslint-disable-line import/no-webpack-loader-syntax, import/no-unresolved, import/extensions, import/first
 import PivotTableTotalsExample from '../components/PivotTableTotalsExample';
 import PivotTableTotalsExampleSRC from '!raw-loader!../components/PivotTableTotalsExample'; // eslint-disable-line import/no-webpack-loader-syntax, import/no-unresolved, import/extensions, import/first
-
+import Trang from '../components/utils/Trang';
+import TrangSRC from '!raw-loader!../components/Trang'; // eslint-disable-line import/no-webpack-loader-syntax, import/no-unresolved, import/extensions, import/first
 
 export const PivotTableDemo = () => (
     <div>
@@ -24,6 +25,18 @@ export const PivotTableDemo = () => (
                 <PivotTableSortingExample />
             )}
             source={PivotTableSortingExampleSRC}
+        />
+
+        <hr className="separator" />
+
+        <h2 id="measures-row-attributes-and-column-attributes">
+            Example of Trang
+        </h2>
+        <ExampleWithSource
+            for={() => (
+                <Trang />
+            )}
+            source={TrangSRC}
         />
 
         <hr className="separator" />

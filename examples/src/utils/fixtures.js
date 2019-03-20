@@ -57,3 +57,5 @@ export const tableVisualizationIdentifier = 'aatFRvXBdilm';
 export const totalSalesIdentifier = 'aa7ulGyKhIE5';
 export const numberOfRestaurantsIdentifier = 'aawAq8YqhM3o';
 export const averageRestaurantDailyCostsIdentifier = 'aaQJzQzoeKwZ';
+export const numberactivities = 'acKjadJIgZUN';
+export const activityType = 'label.activity.activitytype';
