@@ -8,8 +8,8 @@ import PivotTableSortingExample from '../components/PivotTableSortingExample';
 import PivotTableSortingExampleSRC from '!raw-loader!../components/PivotTableSortingExample'; // eslint-disable-line import/no-webpack-loader-syntax, import/no-unresolved, import/extensions, import/first
 import PivotTableTotalsExample from '../components/PivotTableTotalsExample';
 import PivotTableTotalsExampleSRC from '!raw-loader!../components/PivotTableTotalsExample'; // eslint-disable-line import/no-webpack-loader-syntax, import/no-unresolved, import/extensions, import/first
-import Trang from '../components/utils/Trang';
-import TrangSRC from '!raw-loader!../components/Trang'; // eslint-disable-line import/no-webpack-loader-syntax, import/no-unresolved, import/extensions, import/first
+import Trang from 'd:/GDUI/gooddata-react-components/examples/src/components/Trang';
+import TrangSRC from '!raw-loader!d:/GDUI/gooddata-react-components/examples/src/components/Trang'; // eslint-disable-line import/no-webpack-loader-syntax, import/no-unresolved, import/extensions, import/first
 
 export const PivotTableDemo = () => (
     <div>
