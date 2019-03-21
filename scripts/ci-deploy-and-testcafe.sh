@@ -6,7 +6,7 @@ export HEROKU_APP_NAME="gdc-live-examples-$PULL_REQUEST_ID"
 # create new app or add the missing remote
 heroku create $HEROKU_APP_NAME
 heroku git:remote -a $HEROKU_APP_NAME
-heroku config:set DOMAIN_ADMIN_USERNAME=trang.le@gooddata.com DOMAIN_ADMIN_PASSWORD=Changeit123* PROJECT_ID_TO_ASSIGN=zhqd3olvr423akwfdg5uvth9xu4wrvkj > /dev/null
+heroku config:set DOMAIN_ADMIN_USERNAME=lthtrang+stag33@lhv.vn DOMAIN_ADMIN_PASSWORD=changeit PROJECT_ID_TO_ASSIGN=zhqd3olvr423akwfdg5uvth9xu4wrvkj > /dev/null
 git remote -v
 
 # deploy
